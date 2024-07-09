@@ -56,6 +56,11 @@ body{
     height: 18rem;
     width: 18rem;
 }
+.nav-link{
+    &:hover{ color: #ef0f0f;
+    }
+
+}
 
 .footer-end{
     background-color: #575757;
