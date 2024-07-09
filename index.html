@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CuyTecc || Tecnologia para todos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/ct.png" alt="" width="120 px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Promociones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PRODUCTOS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./Impresoras/impresoras.html">Impresoras</a></li>
+                                <li><a class="dropdown-item" href="./laptops/laptop.html">Laptops</a></li>
+                                <li><a class="dropdown-item" href="./Cámaras de seguridad/Cámaras.html">Camara de
+                                        seguridad</a></li>
+                                <li><a class="dropdown-item" href="#">Videojuegos</a></li>
+                                <li><a class="dropdown-item" href="#">Celulares</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Ver todo...</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">COMPRA FACIL Y RAPIDO | DESCARGA NUESTRA
+                                APLICACIÓN</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar producto"
+                            aria-label="Search">
+                        <button class="btn btn-outline-danger" type="submit">
+                            <img src="./img/compra.png" alt="">
+                        </button>
+                        <button class="btn btn-outline-primary" type="button" data-bs-toggle="modal"
+                            data-bs-target="#loginModal">
+                            <img src="./img/login.png" alt="">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="loginModalLabel">Iniciar Sesión / Registrarse</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                        <form>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="password" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                        </form>
+                        <hr>
+                        <p>¿No tienes una cuenta? <a href="#">Regístrate aquí</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/teleban1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="banner-txt">
+                            <h1>SMART TV</h1>
+                            <p>Smart TV de 32 pulgadas Google TV HD 720p con Google Play y Chromecast
+                                integrado, HDR 10, Dolby Audio, control remoto por voz, Stream Live TV (Serie Palette,
+                                CG32-P3, modelo 2024)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/banpc.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="banner-txt">
+                            <h1>PC GAMER </h1>
+                            <p>GAMDIAS ATX Mid Tower - Carcasa para computadora de videojuegos
+                                con vidrio templado lateral, 4 ventiladores ARGB de 4.724 in y sincronización con placa
+                                base RGB de 5 V</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/bancel.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="banner-txt">
+                            <h1>CELULAR SAMSUNG</h1>
+                            <p>CUBOT King Kong 8 - Teléfono inteligente resistente, 10600 mAh desbloqueado, 12 GB de
+                                RAM+256 GB ROM, pantalla de 6.52 pulgadas, linterna LED de 5000 lm, cámara de 48 MP,
+                                IP68/69K/4G Dual SIM Android</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+    <footer class="end">
+        <div class="info-container">
+            <section class="info container">
+                <div class="info-img">
+                    <img src="./img/cuy.png" alt="cuy" />
+                    <a class="btn btn-danger" data-bs-toggle="collapse" href="#collapseInfo" role="button"
+                        aria-expanded="false" aria-controls="collapseInfo">
+                        MÁS INFORMACIÓN
+                    </a>
+                    <div class="collapse" id="collapseInfo">
+                        <div class="card card-body">
+                            <p>Por cada compra recibirás 10 CuyCash y podrás canjear por descuentos en tus siguientes
+                                compras.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-txt">
+                    <h1>MÉTODOS DE PAGO</h1>
+                    <div class="card card-body">
+                        <img src="./img/pagos.png" alt="Métodos de pago">
+                    </div>
+                    <a class="btn btn-danger" data-bs-toggle="collapse" href="#collapseRegister" role="button"
+                        aria-expanded="false" aria-controls="collapseRegister">
+                        INICIAR SESIÓN
+                    </a>
+                    <div class="collapse" id="collapseRegister">
+                        <div class="card card-body">
+                            <form class="login-form">
+                                <h2>INICIA SESIÓN</h2>
+                                <input type="email" class="form-control" placeholder="G-MAIL" required>
+                                <input type="password" class="form-control" placeholder="CONTRASEÑA" required>
+                                <button type="submit" class="btn btn-danger">INICIAR SESIÓN</button>
+                                <p>¿Has olvidado tu contraseña? <a href="#">Recuperar</a></p>
+                                <p>¿No tienes cuenta? <a href="#">Regístrate</a></p>
+                                <div class="social-login">
+                                    <span>Acceso rápido con</span>
+                                    <div>
+                                        <a href="#"><img src="./img/iconG.png" alt="Google"></a>
+                                        <a href="#"><img src="./img/iconF.png" alt="Facebook"></a>
+                                        <a href="#"><img src="./img/icont2.png" alt="Twitter"></a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="custom-bg p-4">
+            <div class="container p-4">
+                <div class="row mt-4">
+                    <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-4">Acerca de la compañía</h5>
+                        <div>
+                            <p>
+                                En CuyTeec, nuestros productos tecnológicos destacan por su calidad premium,
+                                ofreciendo confort y durabilidad excepcionales con un estilo único.
+                            </p>
+                            <p>
+                                En CuyTeec, cada artículo tecnológico está meticulosamente diseñado para garantizar
+                                un rendimiento superior y una experiencia de usuario incomparable.
+                            </p>
+                        </div>
+                        <div class="mt-4">
+                            <a type="button" class="btn btn-floating btn-light btn-lg"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a type="button" class="btn btn-floating btn-light btn-lg"><i
+                                    class="fab fa-dribbble"></i></a>
+                            <a type="button" class="btn btn-floating btn-light btn-lg"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a type="button" class="btn btn-floating btn-light btn-lg"><i
+                                    class="fab fa-google-plus-g"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-4 pb-1">Buscar algo</h5>
+                        <div class="form-outline form-white mb-4">
+                            <input type="text" id="formControlLg" class="form-control form-control-lg" />
+                            <label class="form-label" for="formControlLg">Buscar</label>
+                        </div>
+                        <ul class="fa-ul" style="margin-left: 1.65em;">
+                            <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">CuyTeec Av.
+                                    Cascanueces, Lima 15074, Perú</span>
+                            </li>
+                            <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-envelope"></i></span><span
+                                    class="ms-2">CuyTecc@milederjeff.com</span>
+                            </li>
+                            <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 48 234 567
+                                    88</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-4">Horario de apertura</h5>
+                        <table class="table text-center text-white">
+                            <tbody class="fw-normal">
+                                <tr>
+                                    <td>Lunes - Jueves:</td>
+                                    <td>8am - 9pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Viernes - Sábado:</td>
+                                    <td>8am - 1am</td>
+                                </tr>
+                                <tr>
+                                    <td>Domingo:</td>
+                                    <td>9am - 10pm</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgb(0, 0, 0);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">CuyTecc.com</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

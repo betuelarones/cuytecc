@@ -1,0 +1,142 @@
+.info {
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+}
+.info-img {
+    width: 50%;
+}
+.info-img img {
+    width: 400px; /* Ajusta este valor para hacer la imagen más grande o más pequeña */
+    max-width: 100%;
+}
+
+.info-txt {
+    width: 50%;
+    color: #000000;
+}
+.btn-2 {
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #ef0f0f;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+body{
+    background-color: #ffffff;
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 30px;
+    height: 22rem;
+    background-color: #ff000093; 
+
+    align-items: center;
+    justify-content: center;
+}
+
+.card-categorias {
+    display: inline-block;
+    padding: 0.5em 2em;
+    border: none;
+    color: #000000;
+    font-weight: 900;
+    font-size: calc(var(--element-size) * 0.875);
+    letter-spacing: none;
+    text-transform: uppercase;
+    margin-right: 20px;
+    border-radius: 45px;
+    text-decoration: none;
+    background-color: #ffffff;
+    text-align: center;
+    height: 18rem;
+    width: 18rem;
+}
+
+.footer-end{
+    background-color: #575757;
+}
+
+.banner-txt {
+    background-color: #440d0d9f;
+    border-radius: 45px;
+}
+.info-img {
+    text-align: center;
+}
+
+.info-img img {
+    max-width: 100%;
+}
+
+.info-img .btn {
+    margin-top: 10px;
+}
+
+.info-txt {
+    max-width: 50%;
+    text-align: center;
+}
+
+.card-body img {
+    width: 100%;
+}
+
+.info-txt h1 {
+    font-size: 2rem;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.login-container {
+    max-width: 50%;
+    padding: 20px;
+}
+
+.login-form {
+    background-color: #f8d7da;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    margin-bottom: 10px;
+}
+
+.login-form .btn {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.login-form .social-login img {
+    width: 30px;
+    margin: 0 5px;
+}
+.custom-bg {
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+.custom-bg .form-control, .custom-bg .form-control::placeholder, .custom-bg .form-label {
+    color: white;
+}
+
+.custom-bg a {
+    color: white;
+}
+
+.custom-bg .btn-floating {
+    background-color: white;
+    color: black;
+}
