@@ -57,7 +57,7 @@ body{
     width: 18rem;
 }
 .nav-link{
-    &:hover{ color: #ef0f0f;
+    &:hover{ color: #fc0202;
     }
 
 }
